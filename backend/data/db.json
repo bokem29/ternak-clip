@@ -1,0 +1,1818 @@
+{
+  "users": [
+    {
+      "id": "admin_1",
+      "firebaseUid": "firebase_admin_uid",
+      "email": "admin@clipflow.com",
+      "password": "admin123",
+      "name": "Super Admin",
+      "role": "admin",
+      "balance": 0,
+      "pendingBalance": 0,
+      "budget": 0,
+      "status": "active",
+      "verified": true,
+      "createdAt": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "influencer_1",
+      "firebaseUid": "firebase_inf_1_uid",
+      "email": "influencer@clipflow.com",
+      "password": "influencer123",
+      "name": "Gamer Pro",
+      "role": "influencer",
+      "balance": 0,
+      "pendingBalance": 0,
+      "budget": 50000000,
+      "status": "verified",
+      "verified": true,
+      "influencerStatus": "VERIFIED",
+      "createdAt": "2025-10-15T00:00:00.000Z"
+    },
+    {
+      "id": "influencer_2",
+      "email": "beauty_grace@clipflow.com",
+      "password": "beauty123",
+      "name": "Beauty Grace",
+      "role": "influencer",
+      "balance": 0,
+      "pendingBalance": 0,
+      "budget": 25000000,
+      "status": "verified",
+      "verified": true,
+      "influencerStatus": "VERIFIED",
+      "createdAt": "2025-11-01T00:00:00.000Z"
+    },
+    {
+      "id": "influencer_pending_1",
+      "email": "pending_influencer@clipflow.com",
+      "password": "pending123",
+      "name": "New Streamer",
+      "role": "influencer",
+      "balance": 0,
+      "pendingBalance": 0,
+      "budget": 0,
+      "status": "pending",
+      "verified": true,
+      "influencerStatus": "VERIFIED",
+      "createdAt": "2025-12-20T00:00:00.000Z"
+    },
+    {
+      "id": "clipper_1",
+      "firebaseUid": "firebase_clip_1_uid",
+      "email": "clipper@clipflow.com",
+      "password": "clipper123",
+      "name": "Elite Clipper",
+      "role": "clipper",
+      "balance": 5500000,
+      "pendingBalance": 2500000,
+      "budget": 0,
+      "status": "active",
+      "verified": true,
+      "createdAt": "2025-10-20T00:00:00.000Z"
+    },
+    {
+      "id": "clipper_2",
+      "email": "pro_editor@clipflow.com",
+      "password": "editor123",
+      "name": "Pro Editor",
+      "role": "clipper",
+      "balance": 1250000,
+      "pendingBalance": 750000,
+      "budget": 0,
+      "status": "active",
+      "verified": true,
+      "createdAt": "2025-11-10T00:00:00.000Z"
+    },
+    {
+      "id": "clipper_3",
+      "email": "newbie_clipper@clipflow.com",
+      "password": "newbie123",
+      "name": "Newbie Clipper",
+      "role": "clipper",
+      "balance": 150000,
+      "pendingBalance": 50000,
+      "budget": 0,
+      "status": "suspended",
+      "verified": false,
+      "createdAt": "2025-12-15T00:00:00.000Z"
+    },
+    {
+      "id": "clipper_suspended",
+      "email": "suspended_user@clipflow.com",
+      "password": "suspended123",
+      "name": "Suspended User",
+      "role": "clipper",
+      "balance": 500000,
+      "pendingBalance": 0,
+      "budget": 0,
+      "status": "suspended",
+      "verified": false,
+      "createdAt": "2025-11-01T00:00:00.000Z"
+    },
+    {
+      "id": "user_1766942514005_c01lh9gr5",
+      "firebaseUid": "bOPpp2VCG1UB8JLtZYqrT73VAiv1",
+      "email": "admin@clipflow.com",
+      "name": "admin",
+      "password": "",
+      "role": "admin",
+      "balance": 0,
+      "pendingBalance": 0,
+      "budget": 0,
+      "status": "active",
+      "verified": true,
+      "influencerStatus": "NOT_APPLIED",
+      "createdAt": "2025-12-28T17:21:54.005Z"
+    },
+    {
+      "id": "user_1766996706096_j9ivmbdhe",
+      "firebaseUid": "J1KTf4UZh3N9La5UTbIean7JQiQ2",
+      "email": "ambuh@gmail.com",
+      "name": "ambuh",
+      "password": "",
+      "role": null,
+      "balance": 0,
+      "pendingBalance": 0,
+      "budget": 0,
+      "status": "active",
+      "verified": false,
+      "influencerStatus": "NOT_APPLIED",
+      "createdAt": "2025-12-29T08:25:06.096Z"
+    },
+    {
+      "id": "user_1766997041397_9gbd0r53t",
+      "firebaseUid": "9FakCCThCPa5LJGN3j6kwbs1DWo2",
+      "email": "test@example.com",
+      "name": "test",
+      "password": "",
+      "role": null,
+      "balance": 0,
+      "pendingBalance": 0,
+      "budget": 0,
+      "status": "active",
+      "verified": false,
+      "influencerStatus": "NOT_APPLIED",
+      "createdAt": "2025-12-29T08:30:41.397Z"
+    },
+    {
+      "id": "user_1767070293346_62des78vy",
+      "firebaseUid": "EHnmIgymuvPG9zW489FSPalHngj1",
+      "email": "influencer@clipflow.com",
+      "name": "influencer",
+      "password": "",
+      "role": "influencer",
+      "balance": 0,
+      "pendingBalance": 0,
+      "budget": 1010000,
+      "status": "verified",
+      "verified": true,
+      "influencerStatus": "VERIFIED",
+      "createdAt": "2025-12-30T04:51:33.346Z"
+    },
+    {
+      "id": "user_1767076665807_witw3y85i",
+      "firebaseUid": "LXbOOxQv9ROgVfrObf8eBC8BTmg1",
+      "email": "clipper@test.com",
+      "name": "clipper",
+      "password": "",
+      "role": "clipper",
+      "balance": 0,
+      "pendingBalance": 0,
+      "budget": 0,
+      "status": "active",
+      "verified": false,
+      "influencerStatus": "NOT_APPLIED",
+      "createdAt": "2025-12-30T06:37:45.807Z",
+      "roleLockedAt": "2025-12-30T06:37:53.719Z"
+    }
+  ],
+  "campaigns": [
+    {
+      "id": "camp_active_1",
+      "title": "MLBB Savage Compilation - December 2025",
+      "influencerName": "Gamer Pro",
+      "description": "Cari klip savage terkeren dari stream saya minggu ini. Harus ada watermark GamerPro! Fokus pada gameplay Lancelot, Fanny, dan Gusion. Durasi optimal 30-60 detik.",
+      "thumbnail": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80&w=1000",
+      "allowedPlatforms": [
+        "tiktok",
+        "instagram",
+        "youtube"
+      ],
+      "ratePer1kViews": 15000,
+      "minEligibleViews": 1000,
+      "maxPayableViewsPerClip": 150000,
+      "totalBudget": 15000000,
+      "remainingBudget": 10500000,
+      "paidBudget": 4500000,
+      "reservedBudget": 1250000,
+      "startDate": "2025-12-01T00:00:00.000Z",
+      "endDate": "2026-01-15T00:00:00.000Z",
+      "status": "ACTIVE",
+      "isPublic": true,
+      "allowUnlimitedClippers": true,
+      "clippers": 1,
+      "submissions": 158,
+      "totalViews": 1280840,
+      "createdBy": "influencer_1",
+      "createdAt": "2025-11-28T00:00:00.000Z",
+      "publishedAt": "2025-12-01T00:00:00.000Z",
+      "pausedAt": "2025-12-30T07:05:49.652Z",
+      "pausedBy": "user_1766942514005_c01lh9gr5",
+      "pauseRequested": false,
+      "resumedAt": "2025-12-30T07:06:29.855Z",
+      "resumedBy": "user_1766942514005_c01lh9gr5",
+      "updatedAt": "2025-12-30T07:06:29.855Z",
+      "cpm": 100,
+      "financialsSetAt": "2025-12-30T06:55:09.722Z",
+      "participants": [
+        "user_1767076665807_witw3y85i"
+      ]
+    },
+    {
+      "id": "camp_active_2",
+      "title": "Skincare Routine Highlights - Glow Up Challenge",
+      "influencerName": "Beauty Grace",
+      "description": "Potong bagian terbaik dari video skincare routine saya jadi TikTok pendek. Fokus pada before-after transformation dan product showcase. Caption harus include hashtag #GlowUpWithGrace",
+      "thumbnail": "https://images.unsplash.com/photo-1596462502278-27bfdc4033c8?auto=format&fit=crop&q=80&w=1000",
+      "allowedPlatforms": [
+        "tiktok"
+      ],
+      "ratePer1kViews": 25000,
+      "minEligibleViews": 2000,
+      "maxPayableViewsPerClip": 100000,
+      "totalBudget": 8000000,
+      "remainingBudget": 6500000,
+      "paidBudget": 1500000,
+      "reservedBudget": 500000,
+      "startDate": "2025-12-10T00:00:00.000Z",
+      "endDate": "2026-02-10T00:00:00.000Z",
+      "status": "ACTIVE",
+      "isPublic": true,
+      "allowUnlimitedClippers": false,
+      "maxClippers": 25,
+      "clippers": 1,
+      "submissions": 29,
+      "totalViews": 85000,
+      "createdBy": "influencer_2",
+      "createdAt": "2025-12-08T00:00:00.000Z",
+      "publishedAt": "2025-12-10T00:00:00.000Z",
+      "pausedAt": "2025-12-30T07:05:58.298Z",
+      "pausedBy": "user_1766942514005_c01lh9gr5",
+      "pauseRequested": false,
+      "resumedAt": "2025-12-30T07:06:32.117Z",
+      "resumedBy": "user_1766942514005_c01lh9gr5",
+      "updatedAt": "2025-12-30T07:06:32.117Z",
+      "participants": [
+        "user_1767076665807_witw3y85i"
+      ]
+    },
+    {
+      "id": "camp_active_3",
+      "title": "Funny Fail Moments - Exclusive Clippers Only",
+      "influencerName": "Gamer Pro",
+      "description": "Private campaign for selected top clippers. Compile my funniest fail moments into viral clips. Don't share content outside! Premium rates for quality work.",
+      "thumbnail": "https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&q=80&w=1000",
+      "allowedPlatforms": [
+        "tiktok",
+        "youtube"
+      ],
+      "ratePer1kViews": 20000,
+      "minEligibleViews": 500,
+      "maxPayableViewsPerClip": 200000,
+      "totalBudget": 5000000,
+      "remainingBudget": 3500000,
+      "paidBudget": 1500000,
+      "reservedBudget": 0,
+      "startDate": "2025-12-15T00:00:00.000Z",
+      "endDate": "2026-01-31T00:00:00.000Z",
+      "status": "ACTIVE",
+      "isPublic": false,
+      "participants": [
+        "clipper_1",
+        "clipper_2"
+      ],
+      "clippers": 2,
+      "submissions": 8,
+      "totalViews": 95000,
+      "createdBy": "influencer_1",
+      "createdAt": "2025-12-13T00:00:00.000Z",
+      "publishedAt": "2025-12-15T00:00:00.000Z",
+      "pausedAt": "2025-12-30T07:06:01.238Z",
+      "pausedBy": "user_1766942514005_c01lh9gr5",
+      "pauseRequested": false,
+      "updatedAt": "2025-12-30T07:06:34.854Z",
+      "resumedAt": "2025-12-30T07:06:34.854Z",
+      "resumedBy": "user_1766942514005_c01lh9gr5"
+    },
+    {
+      "id": "camp_pending_1",
+      "title": "Cooking Tutorial Best Moments",
+      "influencerName": "Beauty Grace",
+      "description": "Kompilasi momen terbaik dari cooking tutorial saya. Fokus pada tips memasak cepat dan plating cantik.",
+      "thumbnail": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?auto=format&fit=crop&q=80&w=1000",
+      "allowedPlatforms": [
+        "tiktok",
+        "instagram"
+      ],
+      "ratePer1kViews": 0,
+      "minEligibleViews": 10000,
+      "totalBudget": 10000,
+      "remainingBudget": 0,
+      "paidBudget": 0,
+      "reservedBudget": 0,
+      "status": "ACTIVE",
+      "isPublic": false,
+      "clippers": 0,
+      "submissions": 0,
+      "totalViews": 0,
+      "createdBy": "influencer_2",
+      "createdAt": "2025-12-27T00:00:00.000Z",
+      "cpm": 10,
+      "minDeposit": 100,
+      "financialsSetAt": "2025-12-29T17:14:08.279Z",
+      "approvedAt": "2025-12-29T17:13:44.053Z",
+      "approvedBy": "user_1766942514005_c01lh9gr5",
+      "updatedAt": "2025-12-30T07:06:37.934Z",
+      "pausedAt": "2025-12-30T07:06:04.244Z",
+      "pausedBy": "user_1766942514005_c01lh9gr5",
+      "pauseRequested": false,
+      "resumedAt": "2025-12-30T07:06:37.934Z",
+      "resumedBy": "user_1766942514005_c01lh9gr5"
+    },
+    {
+      "id": "camp_draft_1",
+      "title": "New Year Gaming Marathon Highlights",
+      "influencerName": "Gamer Pro",
+      "description": "Draft campaign untuk event gaming marathon tahun baru. Akan ada banyak momen epic yang bisa di-clip.",
+      "thumbnail": "",
+      "allowedPlatforms": [
+        "tiktok",
+        "youtube"
+      ],
+      "ratePer1kViews": 0,
+      "minEligibleViews": 100,
+      "totalBudget": 111111111111111,
+      "remainingBudget": 0,
+      "paidBudget": 0,
+      "reservedBudget": 0,
+      "status": "DRAFT",
+      "isPublic": false,
+      "clippers": 0,
+      "submissions": 0,
+      "totalViews": 0,
+      "createdBy": "influencer_1",
+      "createdAt": "2025-12-28T00:00:00.000Z",
+      "cpm": 1333,
+      "minDeposit": 100,
+      "financialsSetAt": "2025-12-29T17:14:35.776Z"
+    },
+    {
+      "id": "camp_paused_1",
+      "title": "Valorant Clutch Moments",
+      "influencerName": "Gamer Pro",
+      "description": "Koleksi momen clutch terbaik dari ranked games Valorant. Campaign paused karena ada revisi content guidelines.",
+      "thumbnail": "https://images.unsplash.com/photo-1552820728-8b83bb6b2b0a?auto=format&fit=crop&q=80&w=1000",
+      "allowedPlatforms": [
+        "tiktok",
+        "youtube"
+      ],
+      "ratePer1kViews": 18000,
+      "minEligibleViews": 1500,
+      "maxPayableViewsPerClip": 100000,
+      "totalBudget": 6000000,
+      "remainingBudget": 4200000,
+      "paidBudget": 1800000,
+      "reservedBudget": 300000,
+      "startDate": "2025-12-05T00:00:00.000Z",
+      "endDate": "2026-01-20T00:00:00.000Z",
+      "status": "ACTIVE",
+      "isPublic": true,
+      "allowUnlimitedClippers": true,
+      "clippers": 35,
+      "submissions": 42,
+      "totalViews": 125000,
+      "createdBy": "influencer_1",
+      "createdAt": "2025-12-03T00:00:00.000Z",
+      "publishedAt": "2025-12-05T00:00:00.000Z",
+      "pausedAt": "2025-12-30T07:06:10.939Z",
+      "pauseReason": "Revising content guidelines - will resume after new year",
+      "resumedAt": "2025-12-30T07:06:41.055Z",
+      "resumedBy": "user_1766942514005_c01lh9gr5",
+      "updatedAt": "2025-12-30T07:06:41.055Z",
+      "pausedBy": "user_1766942514005_c01lh9gr5",
+      "pauseRequested": false
+    },
+    {
+      "id": "camp_closed_1",
+      "title": "Black Friday Special Clips",
+      "influencerName": "Beauty Grace",
+      "description": "Campaign untuk Black Friday sale - sudah selesai dan budget habis.",
+      "thumbnail": "https://images.unsplash.com/photo-1607083206968-13611e3d76db?auto=format&fit=crop&q=80&w=1000",
+      "allowedPlatforms": [
+        "tiktok",
+        "instagram"
+      ],
+      "ratePer1kViews": 22000,
+      "minEligibleViews": 1000,
+      "maxPayableViewsPerClip": 80000,
+      "totalBudget": 4000000,
+      "remainingBudget": 0,
+      "paidBudget": 4000000,
+      "reservedBudget": 0,
+      "startDate": "2025-11-20T00:00:00.000Z",
+      "endDate": "2025-12-01T00:00:00.000Z",
+      "status": "CLOSED",
+      "isPublic": false,
+      "allowUnlimitedClippers": false,
+      "maxClippers": 15,
+      "clippers": 15,
+      "submissions": 52,
+      "totalViews": 210000,
+      "createdBy": "influencer_2",
+      "createdAt": "2025-11-18T00:00:00.000Z",
+      "publishedAt": "2025-11-20T00:00:00.000Z",
+      "closedAt": "2025-12-01T00:00:00.000Z",
+      "closeReason": "Budget exhausted - campaign successfully completed"
+    },
+    {
+      "id": "campaign_1767070382885_ae1z17qze",
+      "title": "test 1",
+      "influencerName": "influencer 1",
+      "description": "tes",
+      "thumbnail": null,
+      "allowedPlatforms": [
+        "youtube",
+        "instagram",
+        "facebook"
+      ],
+      "ratePer1kViews": 0,
+      "minEligibleViews": 1000,
+      "maxPayableViewsPerClip": null,
+      "totalBudget": 10000,
+      "reservedBudget": 0,
+      "paidBudget": 0,
+      "remainingBudget": 0,
+      "contentGuidelines": "wewe",
+      "captionRequirements": "",
+      "hashtagRequirements": "wewe",
+      "prohibitedContent": "wewe",
+      "clipDuration": "20",
+      "targetViews": 1000000,
+      "startDate": "2025-12-30",
+      "endDate": "2025-12-31",
+      "autoCloseOnBudgetExhausted": true,
+      "isPublic": true,
+      "allowUnlimitedClippers": true,
+      "maxClippers": null,
+      "maxClipsPerUser": null,
+      "status": "ACTIVE",
+      "createdBy": "user_1767070293346_62des78vy",
+      "createdAt": "2025-12-30T04:53:02.885Z",
+      "platform": "youtube",
+      "stats": {
+        "views": 0,
+        "likes": 0,
+        "shares": 0,
+        "clippers": 0,
+        "clips": 0
+      },
+      "cpm": 100,
+      "minDeposit": 999.99,
+      "financialsSetAt": "2025-12-30T05:02:11.783Z",
+      "approvedAt": "2025-12-30T05:02:16.877Z",
+      "approvedBy": "user_1766942514005_c01lh9gr5",
+      "updatedAt": "2025-12-30T07:06:44.397Z",
+      "pausedAt": "2025-12-30T07:06:14.223Z",
+      "pausedBy": "user_1766942514005_c01lh9gr5",
+      "pauseRequested": false,
+      "resumedAt": "2025-12-30T07:06:44.397Z",
+      "resumedBy": "user_1766942514005_c01lh9gr5"
+    },
+    {
+      "id": "campaign_1767076837463_f14gvpwro",
+      "title": "wewe",
+      "influencerName": "influencer",
+      "description": "wewew",
+      "thumbnail": null,
+      "allowedPlatforms": [
+        "instagram",
+        "youtube"
+      ],
+      "ratePer1kViews": 0,
+      "minEligibleViews": 100,
+      "maxPayableViewsPerClip": null,
+      "totalBudget": 10000,
+      "reservedBudget": 0,
+      "paidBudget": 0,
+      "remainingBudget": 0,
+      "contentGuidelines": "wewe",
+      "captionRequirements": "wewe",
+      "hashtagRequirements": "wewe",
+      "prohibitedContent": "wewe",
+      "clipDuration": "60",
+      "targetViews": 1000000,
+      "startDate": "2025-12-30",
+      "endDate": "2026-01-30",
+      "autoCloseOnBudgetExhausted": true,
+      "isPublic": true,
+      "allowUnlimitedClippers": true,
+      "maxClippers": null,
+      "maxClipsPerUser": null,
+      "status": "ACTIVE",
+      "createdBy": "user_1767070293346_62des78vy",
+      "createdAt": "2025-12-30T06:40:37.463Z",
+      "platform": "instagram",
+      "stats": {
+        "views": 0,
+        "likes": 0,
+        "shares": 0,
+        "clippers": 0,
+        "clips": 0
+      },
+      "cpm": 20,
+      "minDeposit": 10,
+      "financialsSetAt": "2025-12-30T06:42:38.079Z",
+      "approvedAt": "2025-12-30T06:42:41.939Z",
+      "approvedBy": "user_1766942514005_c01lh9gr5",
+      "updatedAt": "2025-12-30T07:06:47.072Z",
+      "pausedAt": "2025-12-30T07:06:17.076Z",
+      "pausedBy": "user_1766942514005_c01lh9gr5",
+      "pauseRequested": false,
+      "resumedAt": "2025-12-30T07:06:47.072Z",
+      "resumedBy": "user_1766942514005_c01lh9gr5"
+    },
+    {
+      "id": "campaign_1767078507459_burk154uy",
+      "title": "xwd",
+      "influencerName": "influencer",
+      "description": "wxw",
+      "thumbnail": null,
+      "allowedPlatforms": [
+        "instagram"
+      ],
+      "ratePer1kViews": 100000,
+      "minEligibleViews": 1000000,
+      "maxPayableViewsPerClip": 10000000,
+      "totalBudget": 10000000000000,
+      "reservedBudget": 0,
+      "paidBudget": 0,
+      "remainingBudget": 10000000000000,
+      "contentGuidelines": "wdw",
+      "captionRequirements": "wdw",
+      "hashtagRequirements": "wd",
+      "prohibitedContent": "wd",
+      "clipDuration": "60",
+      "targetViews": 100000,
+      "startDate": "2025-12-30",
+      "endDate": "2025-12-31",
+      "autoCloseOnBudgetExhausted": true,
+      "isPublic": true,
+      "allowUnlimitedClippers": true,
+      "maxClippers": null,
+      "maxClipsPerUser": null,
+      "status": "ACTIVE",
+      "createdBy": "user_1767070293346_62des78vy",
+      "createdAt": "2025-12-30T07:08:27.459Z",
+      "platform": "instagram",
+      "stats": {
+        "views": 0,
+        "likes": 0,
+        "shares": 0,
+        "clippers": 0,
+        "clips": 0
+      },
+      "cpm": 100,
+      "financialsSetAt": "2025-12-30T07:09:15.614Z",
+      "approvedAt": "2025-12-30T07:09:24.544Z",
+      "approvedBy": "user_1766942514005_c01lh9gr5",
+      "updatedAt": "2025-12-30T07:09:24.545Z"
+    }
+  ],
+  "submissions": [
+    {
+      "id": "sub_approved_1",
+      "userId": "clipper_1",
+      "campaignId": "camp_active_1",
+      "title": "Lancelot Perfect Execution - Triple Kill Savage",
+      "platform": "TIKTOK",
+      "contentUrl": "https://tiktok.com/@elite_clipper/video/savage_lancelot_1",
+      "status": "approved",
+      "views": 125000,
+      "reward": 1875000,
+      "submittedAt": "2025-12-10T10:30:00.000Z",
+      "reviewedAt": "2025-12-11T14:00:00.000Z",
+      "reviewedBy": "admin_1",
+      "adminNotes": "Great editing quality and perfect gameplay capture",
+      "clipper": {
+        "id": "clipper_1",
+        "name": "Elite Clipper",
+        "email": "clipper@clipflow.com",
+        "status": "active",
+        "totalSubmissions": 7,
+        "approvedSubmissions": 4
+      }
+    },
+    {
+      "id": "sub_approved_2",
+      "userId": "clipper_1",
+      "campaignId": "camp_active_1",
+      "title": "Fanny Cable God Mode",
+      "platform": "YOUTUBE",
+      "contentUrl": "https://youtube.com/shorts/fanny_cable_1",
+      "status": "approved",
+      "views": 85000,
+      "reward": 1275000,
+      "submittedAt": "2025-12-12T08:15:00.000Z",
+      "reviewedAt": "2025-12-13T09:30:00.000Z",
+      "reviewedBy": "admin_1",
+      "adminNotes": "Excellent cable mechanics showcase"
+    },
+    {
+      "id": "sub_approved_3",
+      "userId": "clipper_2",
+      "campaignId": "camp_active_1",
+      "title": "Gusion Combo Tutorial",
+      "platform": "TIKTOK",
+      "contentUrl": "https://tiktok.com/@pro_editor/video/gusion_combo",
+      "status": "approved",
+      "views": 65000,
+      "reward": 975000,
+      "submittedAt": "2025-12-11T15:45:00.000Z",
+      "reviewedAt": "2025-12-12T11:20:00.000Z",
+      "reviewedBy": "admin_1",
+      "adminNotes": "Very informative and well edited"
+    },
+    {
+      "id": "sub_approved_4",
+      "userId": "clipper_1",
+      "campaignId": "camp_active_2",
+      "title": "Morning Skincare Routine 60 Seconds",
+      "platform": "TIKTOK",
+      "contentUrl": "https://tiktok.com/@elite_clipper/video/skincare_1",
+      "status": "approved",
+      "views": 45000,
+      "reward": 1125000,
+      "submittedAt": "2025-12-15T07:00:00.000Z",
+      "reviewedAt": "2025-12-16T10:30:00.000Z",
+      "reviewedBy": "admin_1",
+      "adminNotes": "Perfect product placement and transitions"
+    },
+    {
+      "id": "sub_pending_1",
+      "userId": "clipper_1",
+      "campaignId": "camp_active_1",
+      "title": "Chou Freestyle Kick Compilation",
+      "platform": "TIKTOK",
+      "contentUrl": "https://tiktok.com/@elite_clipper/video/chou_kicks",
+      "status": "pending",
+      "views": 28000,
+      "submittedAt": "2025-12-28T09:00:00.000Z",
+      "clipper": {
+        "id": "clipper_1",
+        "name": "Elite Clipper",
+        "email": "clipper@clipflow.com",
+        "status": "active",
+        "totalSubmissions": 7,
+        "approvedSubmissions": 4
+      }
+    },
+    {
+      "id": "sub_pending_2",
+      "userId": "clipper_2",
+      "campaignId": "camp_active_1",
+      "title": "Epic Team Fight Turnaround",
+      "platform": "INSTAGRAM",
+      "contentUrl": "https://instagram.com/reel/team_fight_1",
+      "status": "pending",
+      "views": 15000,
+      "submittedAt": "2025-12-27T14:30:00.000Z"
+    },
+    {
+      "id": "sub_pending_3",
+      "userId": "clipper_3",
+      "campaignId": "camp_active_1",
+      "title": "My First Savage Clip",
+      "platform": "TIKTOK",
+      "contentUrl": "https://tiktok.com/@newbie_clipper/video/first_savage",
+      "status": "pending",
+      "views": 3500,
+      "submittedAt": "2025-12-28T11:45:00.000Z"
+    },
+    {
+      "id": "sub_pending_4",
+      "userId": "clipper_1",
+      "campaignId": "camp_active_2",
+      "title": "Night Skincare Routine Relaxing",
+      "platform": "TIKTOK",
+      "contentUrl": "https://tiktok.com/@elite_clipper/video/skincare_night",
+      "status": "pending",
+      "views": 8500,
+      "submittedAt": "2025-12-28T20:00:00.000Z"
+    },
+    {
+      "id": "sub_pending_5",
+      "userId": "clipper_2",
+      "campaignId": "camp_active_3",
+      "title": "Funniest Fail Moment Ever",
+      "platform": "YOUTUBE",
+      "contentUrl": "https://youtube.com/shorts/funny_fail_1",
+      "status": "pending",
+      "views": 22000,
+      "submittedAt": "2025-12-26T16:00:00.000Z"
+    },
+    {
+      "id": "sub_rejected_1",
+      "userId": "clipper_3",
+      "campaignId": "camp_active_1",
+      "title": "Bad Quality Video Test",
+      "platform": "INSTAGRAM",
+      "contentUrl": "https://instagram.com/reel/bad_quality",
+      "status": "rejected",
+      "views": 800,
+      "rejectionReason": "Video resolution too low (below 720p minimum). Please resubmit with higher quality.",
+      "submittedAt": "2025-12-20T08:00:00.000Z",
+      "reviewedAt": "2025-12-21T10:00:00.000Z",
+      "reviewedBy": "admin_1",
+      "clipper": {
+        "id": "clipper_3",
+        "name": "Newbie Clipper",
+        "email": "newbie_clipper@clipflow.com",
+        "status": "suspended",
+        "totalSubmissions": 3,
+        "approvedSubmissions": 0
+      }
+    },
+    {
+      "id": "sub_rejected_2",
+      "userId": "clipper_2",
+      "campaignId": "camp_active_1",
+      "title": "No Watermark Clip",
+      "platform": "TIKTOK",
+      "contentUrl": "https://tiktok.com/@pro_editor/video/no_watermark",
+      "status": "rejected",
+      "views": 5200,
+      "rejectionReason": "Missing required watermark 'GamerPro' as specified in campaign rules.",
+      "submittedAt": "2025-12-18T12:00:00.000Z",
+      "reviewedAt": "2025-12-19T09:15:00.000Z",
+      "reviewedBy": "admin_1"
+    },
+    {
+      "id": "sub_rejected_3",
+      "userId": "clipper_1",
+      "campaignId": "camp_active_2",
+      "title": "Wrong Aspect Ratio",
+      "platform": "TIKTOK",
+      "contentUrl": "https://tiktok.com/@elite_clipper/video/wrong_aspect",
+      "status": "rejected",
+      "views": 1200,
+      "rejectionReason": "Video aspect ratio must be 9:16 for TikTok. Current ratio appears to be 16:9.",
+      "submittedAt": "2025-12-17T14:00:00.000Z",
+      "reviewedAt": "2025-12-18T08:30:00.000Z",
+      "reviewedBy": "admin_1"
+    },
+    {
+      "id": "sub_flagged_1",
+      "userId": "clipper_3",
+      "campaignId": "camp_active_1",
+      "title": "Suspicious View Count",
+      "platform": "TIKTOK",
+      "contentUrl": "https://tiktok.com/@newbie_clipper/video/suspicious",
+      "status": "flagged",
+      "views": 150000,
+      "flagReason": "Unusual view spike detected - possible bot activity. Under investigation.",
+      "submittedAt": "2025-12-25T10:00:00.000Z",
+      "flaggedAt": "2025-12-26T14:00:00.000Z",
+      "flaggedBy": "admin_1"
+    },
+    {
+      "id": "sub_completed_1",
+      "userId": "clipper_1",
+      "campaignId": "camp_closed_1",
+      "title": "Black Friday Sale Highlight",
+      "platform": "TIKTOK",
+      "contentUrl": "https://tiktok.com/@elite_clipper/video/bf_sale_1",
+      "status": "approved",
+      "views": 95000,
+      "reward": 2090000,
+      "submittedAt": "2025-11-25T09:00:00.000Z",
+      "reviewedAt": "2025-11-26T11:00:00.000Z",
+      "reviewedBy": "admin_1",
+      "paymentStatus": "paid",
+      "paidAt": "2025-12-01T10:00:00.000Z"
+    },
+    {
+      "id": "submission_1767241017035_ua6p2tadj",
+      "clipperId": "user_1767076665807_witw3y85i",
+      "userId": "user_1767076665807_witw3y85i",
+      "campaignId": "camp_active_1",
+      "platform": "YOUTUBE",
+      "videoUrl": "https://www.youtube.com/watch?v=gjTbeLA1-9c&pp=ugUEEgJpZA%3D%3D",
+      "title": "My Awesome Gaming Clip - Epic Moments Compilation",
+      "thumbnail": "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=600&h=340&fit=crop",
+      "views": 15420,
+      "likes": 892,
+      "comments": 0,
+      "uploadDate": "2026-01-01T04:16:57.035Z",
+      "engagementGrowthRate": null,
+      "validationStatus": "PASSED",
+      "validationErrors": [],
+      "validatedAt": "2026-01-01T04:16:57.037Z",
+      "fraudFlags": {
+        "autoFlags": [
+          {
+            "type": "VELOCITY_MISMATCH",
+            "reason": "Submitted too soon after upload: 0.0 hours",
+            "detectedAt": "2026-01-01T04:16:57.038Z"
+          }
+        ],
+        "manualFlags": [],
+        "trustScoreImpact": -3
+      },
+      "status": "FLAGGED_AUTO",
+      "statusHistory": [
+        {
+          "status": "SUBMITTED",
+          "timestamp": "2026-01-01T04:16:57.035Z",
+          "reason": null
+        },
+        {
+          "status": "AUTO_CHECKING",
+          "timestamp": "2026-01-01T04:16:57.038Z",
+          "reason": "Automatic validation and fraud check"
+        },
+        {
+          "status": "FLAGGED_AUTO",
+          "timestamp": "2026-01-01T04:16:57.039Z",
+          "reason": "Auto-flagged: 1 issue(s) detected"
+        }
+      ],
+      "eligibleViews": 15420,
+      "rewardAmount": 231300,
+      "potentialReward": 231300,
+      "reward": 231300,
+      "webBalanceCredited": false,
+      "creditedAt": null,
+      "reviewedAt": null,
+      "reviewedBy": null,
+      "rejectionReason": null,
+      "flagged": false,
+      "flagReason": null,
+      "duration": "2:34",
+      "channelName": "",
+      "channelId": "",
+      "isOriginal": true,
+      "note": null,
+      "lockUntil": null,
+      "viewHistory": [
+        {
+          "views": 15420,
+          "timestamp": "2026-01-01T04:16:57.036Z"
+        }
+      ],
+      "submittedAt": "2026-01-01T04:16:57.036Z",
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+      "clipper": {
+        "id": "user_1767076665807_witw3y85i",
+        "name": "clipper",
+        "email": "clipper@test.com",
+        "status": "active",
+        "totalSubmissions": 2,
+        "approvedSubmissions": 0
+      }
+    },
+    {
+      "id": "submission_1767241061153_his30dplc",
+      "clipperId": "user_1767076665807_witw3y85i",
+      "userId": "user_1767076665807_witw3y85i",
+      "campaignId": "camp_active_1",
+      "platform": "YOUTUBE",
+      "videoUrl": "https://www.youtube.com/watch?v=gjTbeLA1-9c&pp=ugEEgJpZA%3D%3D",
+      "title": "My Awesome Gaming Clip - Epic Moments Compilation",
+      "thumbnail": "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=600&h=340&fit=crop",
+      "views": 15420,
+      "likes": 892,
+      "comments": 0,
+      "uploadDate": "2026-01-01T04:17:41.153Z",
+      "engagementGrowthRate": null,
+      "validationStatus": "PASSED",
+      "validationErrors": [],
+      "validatedAt": "2026-01-01T04:17:41.155Z",
+      "fraudFlags": {
+        "autoFlags": [
+          {
+            "type": "VELOCITY_MISMATCH",
+            "reason": "Submitted too soon after upload: 0.0 hours",
+            "detectedAt": "2026-01-01T04:17:41.156Z"
+          }
+        ],
+        "manualFlags": [],
+        "trustScoreImpact": -3
+      },
+      "status": "FLAGGED_AUTO",
+      "statusHistory": [
+        {
+          "status": "SUBMITTED",
+          "timestamp": "2026-01-01T04:17:41.153Z",
+          "reason": null
+        },
+        {
+          "status": "AUTO_CHECKING",
+          "timestamp": "2026-01-01T04:17:41.156Z",
+          "reason": "Automatic validation and fraud check"
+        },
+        {
+          "status": "FLAGGED_AUTO",
+          "timestamp": "2026-01-01T04:17:41.156Z",
+          "reason": "Auto-flagged: 1 issue(s) detected"
+        }
+      ],
+      "eligibleViews": 15420,
+      "rewardAmount": 231300,
+      "potentialReward": 231300,
+      "reward": 231300,
+      "webBalanceCredited": false,
+      "creditedAt": null,
+      "reviewedAt": null,
+      "reviewedBy": null,
+      "rejectionReason": null,
+      "flagged": false,
+      "flagReason": null,
+      "duration": "2:34",
+      "channelName": "",
+      "channelId": "",
+      "isOriginal": true,
+      "note": null,
+      "lockUntil": null,
+      "viewHistory": [
+        {
+          "views": 15420,
+          "timestamp": "2026-01-01T04:17:41.154Z"
+        }
+      ],
+      "submittedAt": "2026-01-01T04:17:41.154Z",
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+      "id": "submission_1767249254273_ugohfstmy",
+      "clipperId": "user_1767076665807_witw3y85i",
+      "userId": "user_1767076665807_witw3y85i",
+      "campaignId": "camp_active_2",
+      "platform": "TIKTOK",
+      "videoUrl": "https://www.tiktok.com/@feelingsportfolio/photo/7583836483874737421?is_from_webapp=1&sender_device=pc",
+      "title": "Video Clip",
+      "thumbnail": "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=600&h=340&fit=crop",
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "uploadDate": "2026-01-01",
+      "engagementGrowthRate": null,
+      "validationStatus": "PASSED",
+      "validationErrors": [],
+      "validatedAt": "2026-01-01T06:34:14.276Z",
+      "fraudFlags": {
+        "autoFlags": [],
+        "manualFlags": [],
+        "trustScoreImpact": 0
+      },
+      "status": "APPROVED",
+      "statusHistory": [
+        {
+          "status": "SUBMITTED",
+          "timestamp": "2026-01-01T06:34:14.273Z",
+          "reason": null
+        },
+        {
+          "status": "AUTO_CHECKING",
+          "timestamp": "2026-01-01T06:34:14.277Z",
+          "reason": "Automatic validation and fraud check"
+        },
+        {
+          "status": "APPROVED",
+          "timestamp": "2026-01-01T06:34:14.277Z",
+          "reason": "Auto-approved: Validation passed (engines not yet implemented)"
+        }
+      ],
+      "eligibleViews": 0,
+      "rewardAmount": 0,
+      "potentialReward": 0,
+      "reward": 0,
+      "webBalanceCredited": false,
+      "creditedAt": null,
+      "reviewedAt": null,
+      "reviewedBy": null,
+      "rejectionReason": null,
+      "flagged": false,
+      "flagReason": null,
+      "duration": "0:00",
+      "channelName": "",
+      "channelId": "",
+      "isOriginal": true,
+      "note": "iyh",
+      "lockUntil": "2026-01-03T06:34:14.275Z",
+      "viewHistory": [],
+      "submittedAt": "2026-01-01T06:34:14.276Z",
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.1 Safari/605.1.15"
+    }
+  ],
+  "submissionProofs": [
+    {
+      "id": "proof_1",
+      "submissionId": "sub_approved_1",
+      "screenshotUrl": "https://example.com/screenshots/proof_1.png",
+      "verificationNote": "View count verified at 125,000 on 2025-12-11",
+      "createdAt": "2025-12-11T14:00:00.000Z"
+    },
+    {
+      "id": "proof_2",
+      "submissionId": "sub_pending_1",
+      "screenshotUrl": "https://example.com/screenshots/proof_2.png",
+      "createdAt": "2025-12-28T09:05:00.000Z"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "topup_1767076995923_yeb20adkb",
+      "userId": "user_1767070293346_62des78vy",
+      "type": "topup",
+      "amount": 1000000,
+      "description": "Budget Top Up",
+      "status": "completed",
+      "date": "2025-12-30T06:43:15.923Z"
+    },
+    {
+      "id": "tx_withdraw_pending_1",
+      "userId": "clipper_1",
+      "type": "WITHDRAW_REQUEST",
+      "amount": -1500000,
+      "description": "Withdrawal request to Main Bank (BCA)",
+      "withdrawRequestId": "withdraw_pending_1",
+      "status": "pending",
+      "date": "2025-12-28T08:00:00.000Z"
+    },
+    {
+      "id": "tx_withdraw_pending_2",
+      "userId": "clipper_2",
+      "type": "WITHDRAW_REQUEST",
+      "amount": -500000,
+      "description": "Withdrawal request to GOPAY",
+      "withdrawRequestId": "withdraw_pending_2",
+      "status": "pending",
+      "date": "2025-12-27T15:00:00.000Z"
+    },
+    {
+      "id": "tx_withdraw_approved_1",
+      "userId": "clipper_1",
+      "type": "WITHDRAW_APPROVED",
+      "amount": -2000000,
+      "description": "Withdrawal approved - transferred to Main Bank (BCA)",
+      "withdrawRequestId": "withdraw_approved_1",
+      "status": "completed",
+      "date": "2025-12-20T14:00:00.000Z"
+    },
+    {
+      "id": "tx_earning_4",
+      "userId": "clipper_1",
+      "type": "SUBMISSION_REWARD_APPROVED",
+      "amount": 1125000,
+      "description": "Reward for: Morning Skincare Routine 60 Seconds",
+      "submissionId": "sub_approved_4",
+      "campaignId": "camp_active_2",
+      "status": "completed",
+      "date": "2025-12-16T10:30:00.000Z"
+    },
+    {
+      "id": "tx_withdraw_rejected_1",
+      "userId": "clipper_suspended",
+      "type": "WITHDRAW_REJECTED",
+      "amount": 0,
+      "description": "Withdrawal rejected - Account suspended for policy violation",
+      "withdrawRequestId": "withdraw_rejected_1",
+      "status": "rejected",
+      "date": "2025-12-15T10:00:00.000Z"
+    },
+    {
+      "id": "tx_earning_2",
+      "userId": "clipper_1",
+      "type": "SUBMISSION_REWARD_APPROVED",
+      "amount": 1275000,
+      "description": "Reward for: Fanny Cable God Mode",
+      "submissionId": "sub_approved_2",
+      "campaignId": "camp_active_1",
+      "status": "completed",
+      "date": "2025-12-13T09:30:00.000Z"
+    },
+    {
+      "id": "tx_earning_3",
+      "userId": "clipper_2",
+      "type": "SUBMISSION_REWARD_APPROVED",
+      "amount": 975000,
+      "description": "Reward for: Gusion Combo Tutorial",
+      "submissionId": "sub_approved_3",
+      "campaignId": "camp_active_1",
+      "status": "completed",
+      "date": "2025-12-12T11:20:00.000Z"
+    },
+    {
+      "id": "tx_earning_1",
+      "userId": "clipper_1",
+      "type": "SUBMISSION_REWARD_APPROVED",
+      "amount": 1875000,
+      "description": "Reward for: Lancelot Perfect Execution - Triple Kill Savage",
+      "submissionId": "sub_approved_1",
+      "campaignId": "camp_active_1",
+      "status": "completed",
+      "date": "2025-12-11T14:00:00.000Z"
+    },
+    {
+      "id": "tx_earning_5",
+      "userId": "clipper_1",
+      "type": "SUBMISSION_REWARD_APPROVED",
+      "amount": 2090000,
+      "description": "Reward for: Black Friday Sale Highlight",
+      "submissionId": "sub_completed_1",
+      "campaignId": "camp_closed_1",
+      "status": "completed",
+      "date": "2025-11-26T11:00:00.000Z"
+    },
+    {
+      "id": "tx_budget_topup_2",
+      "userId": "influencer_2",
+      "type": "BUDGET_TOPUP",
+      "amount": 25000000,
+      "description": "Budget top-up for skincare campaigns",
+      "status": "completed",
+      "date": "2025-11-01T00:00:00.000Z"
+    },
+    {
+      "id": "tx_budget_topup_1",
+      "userId": "influencer_1",
+      "type": "BUDGET_TOPUP",
+      "amount": 50000000,
+      "description": "Initial budget top-up for campaign creation",
+      "status": "completed",
+      "date": "2025-10-15T00:00:00.000Z"
+    }
+  ],
+  "withdrawRequests": [
+    {
+      "id": "withdraw_pending_3",
+      "userId": "clipper_3",
+      "amount": 100000,
+      "paymentMethodId": "pm_ewallet_3",
+      "paymentMethod": {
+        "id": "pm_ewallet_3",
+        "type": "EWALLET",
+        "label": "DANA",
+        "ewalletType": "DANA",
+        "ewalletNumber": "08111222333",
+        "ewalletName": "Newbie Clipper"
+      },
+      "status": "PENDING",
+      "createdAt": "2025-12-28T16:00:00.000Z"
+    },
+    {
+      "id": "withdraw_pending_1",
+      "userId": "clipper_1",
+      "amount": 1500000,
+      "paymentMethodId": "pm_bank_1",
+      "paymentMethod": {
+        "id": "pm_bank_1",
+        "type": "BANK",
+        "label": "Main Bank (BCA)",
+        "bankName": "BCA",
+        "accountNumber": "8830112233",
+        "accountName": "Elite Clipper Store"
+      },
+      "status": "PENDING",
+      "createdAt": "2025-12-28T08:00:00.000Z"
+    },
+    {
+      "id": "withdraw_pending_2",
+      "userId": "clipper_2",
+      "amount": 500000,
+      "paymentMethodId": "pm_ewallet_2",
+      "paymentMethod": {
+        "id": "pm_ewallet_2",
+        "type": "EWALLET",
+        "label": "GOPAY",
+        "ewalletType": "GOPAY",
+        "ewalletNumber": "08567891234",
+        "ewalletName": "Pro Editor"
+      },
+      "status": "PENDING",
+      "createdAt": "2025-12-27T15:00:00.000Z"
+    },
+    {
+      "id": "withdraw_approved_1",
+      "userId": "clipper_1",
+      "amount": 2000000,
+      "paymentMethodId": "pm_bank_1",
+      "paymentMethod": {
+        "id": "pm_bank_1",
+        "type": "BANK",
+        "label": "Main Bank (BCA)",
+        "bankName": "BCA",
+        "accountNumber": "8830112233",
+        "accountName": "Elite Clipper Store"
+      },
+      "status": "APPROVED",
+      "createdAt": "2025-12-18T10:00:00.000Z",
+      "reviewedAt": "2025-12-20T14:00:00.000Z",
+      "reviewedBy": "admin_1",
+      "adminNotes": "Payment processed successfully via bank transfer"
+    },
+    {
+      "id": "withdraw_rejected_1",
+      "userId": "clipper_suspended",
+      "amount": 250000,
+      "paymentMethodId": "pm_bank_suspended",
+      "paymentMethod": {
+        "id": "pm_bank_suspended",
+        "type": "BANK",
+        "label": "Personal Bank",
+        "bankName": "BRI",
+        "accountNumber": "1234567890",
+        "accountName": "Suspended User"
+      },
+      "status": "REJECTED",
+      "rejectionReason": "Account suspended for policy violation. Funds are frozen pending investigation.",
+      "createdAt": "2025-12-14T08:00:00.000Z",
+      "reviewedAt": "2025-12-15T10:00:00.000Z",
+      "reviewedBy": "admin_1"
+    },
+    {
+      "id": "withdraw_approved_2",
+      "userId": "clipper_2",
+      "amount": 750000,
+      "paymentMethodId": "pm_ewallet_2",
+      "paymentMethod": {
+        "id": "pm_ewallet_2",
+        "type": "EWALLET",
+        "label": "GOPAY",
+        "ewalletType": "GOPAY",
+        "ewalletNumber": "08567891234",
+        "ewalletName": "Pro Editor"
+      },
+      "status": "APPROVED",
+      "createdAt": "2025-12-10T09:00:00.000Z",
+      "reviewedAt": "2025-12-11T11:30:00.000Z",
+      "reviewedBy": "admin_1"
+    }
+  ],
+  "paymentMethods": [
+    {
+      "id": "pm_bank_1",
+      "userId": "clipper_1",
+      "type": "BANK",
+      "label": "Main Bank (BCA)",
+      "bankName": "BCA",
+      "accountNumber": "8830112233",
+      "accountName": "Elite Clipper Store",
+      "isDefault": true,
+      "createdAt": "2025-10-25T00:00:00.000Z"
+    },
+    {
+      "id": "pm_ewallet_1",
+      "userId": "clipper_1",
+      "type": "EWALLET",
+      "label": "GOPAY Backup",
+      "ewalletType": "GOPAY",
+      "ewalletNumber": "08123456789",
+      "ewalletName": "Elite Clipper",
+      "isDefault": false,
+      "createdAt": "2025-11-01T00:00:00.000Z"
+    },
+    {
+      "id": "pm_ewallet_2",
+      "userId": "clipper_2",
+      "type": "EWALLET",
+      "label": "GOPAY",
+      "ewalletType": "GOPAY",
+      "ewalletNumber": "08567891234",
+      "ewalletName": "Pro Editor",
+      "isDefault": true,
+      "createdAt": "2025-11-15T00:00:00.000Z"
+    },
+    {
+      "id": "pm_bank_2",
+      "userId": "clipper_2",
+      "type": "BANK",
+      "label": "Mandiri Account",
+      "bankName": "MANDIRI",
+      "accountNumber": "1350012345678",
+      "accountName": "Pro Editor Official",
+      "isDefault": false,
+      "createdAt": "2025-12-01T00:00:00.000Z"
+    },
+    {
+      "id": "pm_ewallet_3",
+      "userId": "clipper_3",
+      "type": "EWALLET",
+      "label": "DANA",
+      "ewalletType": "DANA",
+      "ewalletNumber": "08111222333",
+      "ewalletName": "Newbie Clipper",
+      "isDefault": true,
+      "createdAt": "2025-12-16T00:00:00.000Z"
+    },
+    {
+      "id": "pm_bank_suspended",
+      "userId": "clipper_suspended",
+      "type": "BANK",
+      "label": "Personal Bank",
+      "bankName": "BRI",
+      "accountNumber": "1234567890",
+      "accountName": "Suspended User",
+      "isDefault": true,
+      "createdAt": "2025-11-05T00:00:00.000Z"
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "audit_1767028475779_91tl9qm1o",
+      "adminId": "user_1766942514005_c01lh9gr5",
+      "action": "SET_CAMPAIGN_FINANCIALS",
+      "details": "Set financials for campaign: New Year Gaming Marathon Highlights",
+      "timestamp": "2025-12-29T17:14:35.779Z"
+    },
+    {
+      "id": "audit_1767028448281_ib9qhgkn2",
+      "adminId": "user_1766942514005_c01lh9gr5",
+      "action": "SET_CAMPAIGN_FINANCIALS",
+      "details": "Set financials for campaign: Cooking Tutorial Best Moments",
+      "timestamp": "2025-12-29T17:14:08.281Z"
+    },
+    {
+      "id": "audit_1766999693206_2n8tgvw8k",
+      "adminId": "user_1766942514005_c01lh9gr5",
+      "action": "UPDATE_USER_STATUS",
+      "details": {
+        "userId": "clipper_2",
+        "oldStatus": "suspended",
+        "newStatus": "active"
+      },
+      "timestamp": "2025-12-29T09:14:53.206Z"
+    },
+    {
+      "id": "audit_1766999690642_ourckqblz",
+      "adminId": "user_1766942514005_c01lh9gr5",
+      "action": "UPDATE_USER_STATUS",
+      "details": {
+        "userId": "clipper_2",
+        "oldStatus": "active",
+        "newStatus": "suspended"
+      },
+      "timestamp": "2025-12-29T09:14:50.642Z"
+    },
+    {
+      "id": "audit_1766999671477_llb65un15",
+      "adminId": "user_1766942514005_c01lh9gr5",
+      "action": "UPDATE_USER_STATUS",
+      "details": {
+        "userId": "clipper_3",
+        "oldStatus": "active",
+        "newStatus": "suspended"
+      },
+      "timestamp": "2025-12-29T09:14:31.477Z"
+    },
+    {
+      "id": "audit_1766999665404_b719ew1m7",
+      "adminId": "user_1766942514005_c01lh9gr5",
+      "action": "UPDATE_USER_STATUS",
+      "details": {
+        "userId": "clipper_suspended",
+        "oldStatus": "active",
+        "newStatus": "suspended"
+      },
+      "timestamp": "2025-12-29T09:14:25.404Z"
+    },
+    {
+      "id": "audit_1766999657522_fasfu7o9y",
+      "adminId": "user_1766942514005_c01lh9gr5",
+      "action": "UPDATE_USER_STATUS",
+      "details": {
+        "userId": "clipper_suspended",
+        "oldStatus": "suspended",
+        "newStatus": "active"
+      },
+      "timestamp": "2025-12-29T09:14:17.523Z"
+    },
+    {
+      "id": "audit_1766999276612_b2f838as8",
+      "adminId": "user_1766942514005_c01lh9gr5",
+      "action": "PAUSE_CAMPAIGN",
+      "details": "Paused campaign: MLBB Savage Compilation - December 2025",
+      "timestamp": "2025-12-29T09:07:56.613Z"
+    },
+    {
+      "id": "audit_1766998645379_jaaf44uax",
+      "adminId": "user_1766942514005_c01lh9gr5",
+      "action": "SET_CAMPAIGN_FINANCIALS",
+      "details": "Set financials for campaign: Cooking Tutorial Best Moments",
+      "timestamp": "2025-12-29T08:57:25.379Z"
+    },
+    {
+      "id": "audit_1766943275820_ua1ek9oy6",
+      "adminId": "user_1766942514005_c01lh9gr5",
+      "action": "APPROVE_INFLUENCER",
+      "details": {
+        "influencerId": "prof_pending_1",
+        "userId": "influencer_pending_1",
+        "influencerName": "New Streamer"
+      },
+      "timestamp": "2025-12-28T17:34:35.820Z"
+    },
+    {
+      "id": "audit_4",
+      "adminId": "admin_1",
+      "action": "SUBMISSION_FLAGGED",
+      "details": {
+        "submissionId": "sub_flagged_1",
+        "userId": "clipper_3",
+        "reason": "Suspicious view spike detected"
+      },
+      "timestamp": "2025-12-26T14:00:00.000Z"
+    },
+    {
+      "id": "audit_8",
+      "adminId": "admin_1",
+      "action": "CAMPAIGN_PAUSED",
+      "details": {
+        "campaignId": "camp_paused_1",
+        "reason": "Revising content guidelines"
+      },
+      "timestamp": "2025-12-25T00:00:00.000Z"
+    },
+    {
+      "id": "audit_3",
+      "adminId": "admin_1",
+      "action": "SUBMISSION_REJECTED",
+      "details": {
+        "submissionId": "sub_rejected_1",
+        "userId": "clipper_3",
+        "reason": "Video resolution too low"
+      },
+      "timestamp": "2025-12-21T10:00:00.000Z"
+    },
+    {
+      "id": "audit_5",
+      "adminId": "admin_1",
+      "action": "WITHDRAW_APPROVED",
+      "details": {
+        "withdrawRequestId": "withdraw_approved_1",
+        "userId": "clipper_1",
+        "amount": 2000000
+      },
+      "timestamp": "2025-12-20T14:00:00.000Z"
+    },
+    {
+      "id": "audit_6",
+      "adminId": "admin_1",
+      "action": "WITHDRAW_REJECTED",
+      "details": {
+        "withdrawRequestId": "withdraw_rejected_1",
+        "userId": "clipper_suspended",
+        "amount": 250000,
+        "reason": "Account suspended for policy violation"
+      },
+      "timestamp": "2025-12-15T10:00:00.000Z"
+    },
+    {
+      "id": "audit_7",
+      "adminId": "admin_1",
+      "action": "USER_SUSPENDED",
+      "details": {
+        "userId": "clipper_suspended",
+        "reason": "Policy violation - fake view manipulation detected"
+      },
+      "timestamp": "2025-12-14T09:00:00.000Z"
+    },
+    {
+      "id": "audit_2",
+      "adminId": "admin_1",
+      "action": "SUBMISSION_APPROVED",
+      "details": {
+        "submissionId": "sub_approved_2",
+        "userId": "clipper_1",
+        "reward": 1275000
+      },
+      "timestamp": "2025-12-13T09:30:00.000Z"
+    },
+    {
+      "id": "audit_1",
+      "adminId": "admin_1",
+      "action": "SUBMISSION_APPROVED",
+      "details": {
+        "submissionId": "sub_approved_1",
+        "userId": "clipper_1",
+        "reward": 1875000
+      },
+      "timestamp": "2025-12-11T14:00:00.000Z"
+    },
+    {
+      "id": "audit_10",
+      "adminId": "admin_1",
+      "action": "CAMPAIGN_APPROVED",
+      "details": {
+        "campaignId": "camp_active_1",
+        "influencerId": "influencer_1",
+        "budget": 15000000
+      },
+      "timestamp": "2025-12-01T00:00:00.000Z"
+    },
+    {
+      "id": "audit_9",
+      "adminId": "admin_1",
+      "action": "INFLUENCER_VERIFIED",
+      "details": {
+        "userId": "influencer_2",
+        "profileId": "prof_2"
+      },
+      "timestamp": "2025-11-02T10:00:00.000Z"
+    },
+    {
+      "id": "audit_1767028567374_0jrifvoog",
+      "adminId": "user_1766942514005_c01lh9gr5",
+      "action": "RESUME_CAMPAIGN",
+      "details": "Resumed campaign: MLBB Savage Compilation - December 2025",
+      "timestamp": "2025-12-29T17:16:07.374Z"
+    },
+    {
+      "id": "audit_1767070931793_lucs65mkl",
+      "adminId": "user_1766942514005_c01lh9gr5",
+      "action": "SET_CAMPAIGN_FINANCIALS",
+      "details": "Set financials for campaign: test 1",
+      "timestamp": "2025-12-30T05:02:11.793Z"
+    },
+    {
+      "id": "audit_1767076673719_957rk7avp",
+      "adminId": "user_1767076665807_witw3y85i",
+      "action": "ROLE_SELECTED",
+      "details": {
+        "role": "clipper",
+        "timestamp": "2025-12-30T06:37:53.719Z",
+        "userId": "user_1767076665807_witw3y85i"
+      },
+      "timestamp": "2025-12-30T06:37:53.719Z"
+    },
+    {
+      "id": "audit_1767076687038_2sxovs2iz",
+      "adminId": "user_1766942514005_c01lh9gr5",
+      "action": "RESUME_CAMPAIGN",
+      "details": "Resumed campaign: Skincare Routine Highlights - Glow Up Challenge",
+      "timestamp": "2025-12-30T06:38:07.038Z"
+    },
+    {
+      "id": "audit_1767076690999_n5sxl4nty",
+      "adminId": "user_1766942514005_c01lh9gr5",
+      "action": "RESUME_CAMPAIGN",
+      "details": "Resumed campaign: Funny Fail Moments - Exclusive Clippers Only",
+      "timestamp": "2025-12-30T06:38:10.999Z"
+    },
+    {
+      "id": "audit_1767076722301_ee92b1hz2",
+      "adminId": "user_1766942514005_c01lh9gr5",
+      "action": "PAUSE_CAMPAIGN",
+      "details": "Paused campaign: test 1",
+      "timestamp": "2025-12-30T06:38:42.301Z"
+    },
+    {
+      "id": "audit_1767076723165_3rdfuj2nm",
+      "adminId": "user_1766942514005_c01lh9gr5",
+      "action": "RESUME_CAMPAIGN",
+      "details": "Resumed campaign: test 1",
+      "timestamp": "2025-12-30T06:38:43.165Z"
+    },
+    {
+      "id": "audit_1767076744009_cg8hfdpt9",
+      "adminId": "user_1766942514005_c01lh9gr5",
+      "action": "PAUSE_CAMPAIGN",
+      "details": "Paused campaign: Valorant Clutch Moments",
+      "timestamp": "2025-12-30T06:39:04.009Z"
+    },
+    {
+      "id": "audit_1767076757231_pu1zohcl6",
+      "adminId": "user_1766942514005_c01lh9gr5",
+      "action": "RESUME_CAMPAIGN",
+      "details": "Resumed campaign: Valorant Clutch Moments",
+      "timestamp": "2025-12-30T06:39:17.231Z"
+    },
+    {
+      "id": "audit_1767076958086_u4rfu3ymt",
+      "adminId": "user_1766942514005_c01lh9gr5",
+      "action": "SET_CAMPAIGN_FINANCIALS",
+      "details": "Set financials for campaign: wewe",
+      "timestamp": "2025-12-30T06:42:38.086Z"
+    },
+    {
+      "id": "audit_1767076961947_kbkxeodsy",
+      "adminId": "user_1766942514005_c01lh9gr5",
+      "action": "APPROVE_CAMPAIGN",
+      "details": "Approved campaign: wewe",
+      "timestamp": "2025-12-30T06:42:41.947Z"
+    },
+    {
+      "id": "audit_1767078358311_x126a86oo",
+      "adminId": "user_1766942514005_c01lh9gr5",
+      "action": "PAUSE_CAMPAIGN",
+      "details": "Paused campaign: Skincare Routine Highlights - Glow Up Challenge",
+      "timestamp": "2025-12-30T07:05:58.311Z"
+    },
+    {
+      "id": "audit_1767078361242_y08dos6xk",
+      "adminId": "user_1766942514005_c01lh9gr5",
+      "action": "PAUSE_CAMPAIGN",
+      "details": "Paused campaign: Funny Fail Moments - Exclusive Clippers Only",
+      "timestamp": "2025-12-30T07:06:01.242Z"
+    },
+    {
+      "id": "audit_1767078364252_8cqxfqm1b",
+      "adminId": "user_1766942514005_c01lh9gr5",
+      "action": "PAUSE_CAMPAIGN",
+      "details": "Paused campaign: Cooking Tutorial Best Moments",
+      "timestamp": "2025-12-30T07:06:04.252Z"
+    },
+    {
+      "id": "audit_1767078370942_0i4wv8mt7",
+      "adminId": "user_1766942514005_c01lh9gr5",
+      "action": "PAUSE_CAMPAIGN",
+      "details": "Paused campaign: Valorant Clutch Moments",
+      "timestamp": "2025-12-30T07:06:10.942Z"
+    },
+    {
+      "id": "audit_1767078374226_7uxd69hw9",
+      "adminId": "user_1766942514005_c01lh9gr5",
+      "action": "PAUSE_CAMPAIGN",
+      "details": "Paused campaign: test 1",
+      "timestamp": "2025-12-30T07:06:14.226Z"
+    },
+    {
+      "id": "audit_1767078377086_kxks91818",
+      "adminId": "user_1766942514005_c01lh9gr5",
+      "action": "PAUSE_CAMPAIGN",
+      "details": "Paused campaign: wewe",
+      "timestamp": "2025-12-30T07:06:17.086Z"
+    },
+    {
+      "id": "audit_1767078389859_kn9nhto90",
+      "adminId": "user_1766942514005_c01lh9gr5",
+      "action": "RESUME_CAMPAIGN",
+      "details": "Resumed campaign: MLBB Savage Compilation - December 2025",
+      "timestamp": "2025-12-30T07:06:29.859Z"
+    },
+    {
+      "id": "audit_1767078392120_f7hb5fzoq",
+      "adminId": "user_1766942514005_c01lh9gr5",
+      "action": "RESUME_CAMPAIGN",
+      "details": "Resumed campaign: Skincare Routine Highlights - Glow Up Challenge",
+      "timestamp": "2025-12-30T07:06:32.120Z"
+    },
+    {
+      "id": "audit_1767078394858_ozcfgks4y",
+      "adminId": "user_1766942514005_c01lh9gr5",
+      "action": "RESUME_CAMPAIGN",
+      "details": "Resumed campaign: Funny Fail Moments - Exclusive Clippers Only",
+      "timestamp": "2025-12-30T07:06:34.858Z"
+    },
+    {
+      "id": "audit_1767078397937_p8pye0ep1",
+      "adminId": "user_1766942514005_c01lh9gr5",
+      "action": "RESUME_CAMPAIGN",
+      "details": "Resumed campaign: Cooking Tutorial Best Moments",
+      "timestamp": "2025-12-30T07:06:37.937Z"
+    },
+    {
+      "id": "audit_1767078401058_96j5ef6kd",
+      "adminId": "user_1766942514005_c01lh9gr5",
+      "action": "RESUME_CAMPAIGN",
+      "details": "Resumed campaign: Valorant Clutch Moments",
+      "timestamp": "2025-12-30T07:06:41.058Z"
+    },
+    {
+      "id": "audit_1767078404400_qqe00eijv",
+      "adminId": "user_1766942514005_c01lh9gr5",
+      "action": "RESUME_CAMPAIGN",
+      "details": "Resumed campaign: test 1",
+      "timestamp": "2025-12-30T07:06:44.400Z"
+    },
+    {
+      "id": "audit_1767078407075_zwxp4dgyl",
+      "adminId": "user_1766942514005_c01lh9gr5",
+      "action": "RESUME_CAMPAIGN",
+      "details": "Resumed campaign: wewe",
+      "timestamp": "2025-12-30T07:06:47.075Z"
+    },
+    {
+      "id": "audit_1767078555621_ydnm6w1xz",
+      "adminId": "user_1766942514005_c01lh9gr5",
+      "action": "SET_CAMPAIGN_FINANCIALS",
+      "details": "Set financials for campaign: xwd",
+      "timestamp": "2025-12-30T07:09:15.621Z"
+    }
+  ],
+  "influencerProfiles": [
+    {
+      "id": "prof_1",
+      "userId": "influencer_1",
+      "influencerName": "Gamer Pro",
+      "socialPlatform": "YOUTUBE",
+      "socialHandle": "@gamerpro_official",
+      "followers": 2500000,
+      "niche": "Gaming & Esports",
+      "bio": "Professional MLBB player and content creator. 2x SEA Games medalist.",
+      "status": "VERIFIED",
+      "submittedAt": "2025-10-15T00:00:00.000Z",
+      "reviewedAt": "2025-10-16T10:00:00.000Z",
+      "reviewedBy": "admin_1"
+    },
+    {
+      "id": "prof_2",
+      "userId": "influencer_2",
+      "influencerName": "Beauty Grace",
+      "socialPlatform": "INSTAGRAM",
+      "socialHandle": "@beauty_grace",
+      "followers": 850000,
+      "niche": "Lifestyle & Beauty",
+      "bio": "Your daily dose of skincare tips, makeup tutorials, and self-care motivation.",
+      "status": "VERIFIED",
+      "submittedAt": "2025-11-01T00:00:00.000Z",
+      "reviewedAt": "2025-11-02T10:00:00.000Z",
+      "reviewedBy": "admin_1"
+    },
+    {
+      "id": "prof_pending_1",
+      "userId": "influencer_pending_1",
+      "influencerName": "New Streamer",
+      "socialPlatform": "TIKTOK",
+      "socialHandle": "@new_streamer_live",
+      "followers": 125000,
+      "niche": "Gaming & Entertainment",
+      "bio": "New streamer looking to grow with ClipFlow. Daily streams on MLBB and Valorant.",
+      "status": "VERIFIED",
+      "submittedAt": "2025-12-20T00:00:00.000Z",
+      "reviewedAt": "2025-12-28T17:34:35.818Z",
+      "reviewedBy": "user_1766942514005_c01lh9gr5"
+    }
+  ],
+  "campaignClipperRelations": [
+    {
+      "id": "relation_1767173761383_4loulvqap",
+      "campaignId": "camp_active_1",
+      "clipperId": "user_1767076665807_witw3y85i",
+      "joinedAt": "2025-12-31T09:36:01.383Z",
+      "status": "ACTIVE",
+      "submissionCount": 2,
+      "lastSubmissionAt": "2026-01-01T04:17:41.156Z"
+    },
+    {
+      "id": "relation_1767249178619_f0xgnwwp7",
+      "campaignId": "camp_active_2",
+      "clipperId": "user_1767076665807_witw3y85i",
+      "joinedAt": "2026-01-01T06:32:58.619Z",
+      "status": "ACTIVE",
+      "submissionCount": 1,
+      "lastSubmissionAt": "2026-01-01T06:34:14.277Z"
+    }
+  ],
+  "trustScores": [
+    {
+      "id": "trust_1767173293688_q3hjj5ojd",
+      "clipperId": "user_1767076665807_witw3y85i",
+      "score": 30,
+      "tier": "LOW",
+      "approvedSubmissions": 0,
+      "totalSubmissions": 2,
+      "autoFlags": 2,
+      "manualFlags": 0,
+      "consistencyScore": 0,
+      "history": [
+        {
+          "score": 50,
+          "reason": "Recalculated: 0 approved, 0 auto flags, 0 manual flags",
+          "timestamp": "2025-12-31T09:28:13.688Z"
+        },
+        {
+          "score": 30,
+          "reason": "Recalculated: 0 approved, 2 auto flags, 0 manual flags",
+          "timestamp": "2026-01-01T06:34:14.277Z"
+        }
+      ],
+      "lastUpdated": "2026-01-01T06:34:14.277Z",
+      "calculatedAt": "2026-01-01T06:34:14.277Z"
+    }
+  ],
+  "webBalances": [
+    {
+      "userId": "user_1767076665807_witw3y85i",
+      "balance": 0,
+      "lastUpdated": "2025-12-31T09:28:13.764Z"
+    }
+  ],
+  "webBalanceLedger": [],
+  "withdrawalStatusHistory": [],
+  "withdrawalAdminLogs": []
+}

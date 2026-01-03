@@ -1,0 +1,320 @@
+{
+  "users": [
+    {
+      "id": "admin_1",
+      "firebaseUid": "firebase_admin_uid",
+      "email": "admin@clipflow.com",
+      "name": "Super Admin",
+      "password": "password123",
+      "role": "admin",
+      "balance": 0,
+      "pendingBalance": 0,
+      "status": "active",
+      "verified": true,
+      "createdAt": "2025-10-29T17:03:31.419Z"
+    },
+    {
+      "id": "inf_1",
+      "firebaseUid": "firebase_inf_uid",
+      "email": "influencer@clipflow.com",
+      "name": "Gamer Pro",
+      "password": "password123",
+      "role": "influencer",
+      "balance": 0,
+      "pendingBalance": 0,
+      "budget": 25000000,
+      "status": "verified",
+      "verified": true,
+      "influencerStatus": "VERIFIED",
+      "createdAt": "2025-11-28T17:03:31.419Z"
+    },
+    {
+      "id": "inf_2",
+      "email": "beauty_vlog@test.com",
+      "name": "Beauty Grace",
+      "password": "password123",
+      "role": "influencer",
+      "balance": 0,
+      "pendingBalance": 0,
+      "budget": 5000000,
+      "status": "verified",
+      "verified": true,
+      "influencerStatus": "VERIFIED",
+      "createdAt": "2025-12-13T17:03:31.419Z"
+    },
+    {
+      "id": "clip_1",
+      "firebaseUid": "firebase_clip_uid",
+      "email": "clipper@test.com",
+      "name": "Elite Clipper",
+      "password": "password123",
+      "role": "clipper",
+      "balance": 2450000,
+      "pendingBalance": 1250000,
+      "budget": 0,
+      "status": "active",
+      "verified": true,
+      "createdAt": "2025-11-13T17:03:31.419Z"
+    },
+    {
+      "id": "clip_2",
+      "email": "newbie@test.com",
+      "name": "Newbie Clipper",
+      "password": "password123",
+      "role": "clipper",
+      "balance": 75000,
+      "pendingBalance": 25000,
+      "budget": 0,
+      "status": "active",
+      "verified": false,
+      "createdAt": "2025-12-23T17:03:31.419Z"
+    },
+    {
+      "id": "clip_3",
+      "email": "bad_actor@test.com",
+      "name": "Suspended User",
+      "password": "password123",
+      "role": "clipper",
+      "balance": 500000,
+      "pendingBalance": 0,
+      "budget": 0,
+      "status": "suspended",
+      "verified": false,
+      "createdAt": "2025-12-08T17:03:31.419Z"
+    }
+  ],
+  "campaigns": [
+    {
+      "id": "camp_1",
+      "title": "MLBB Savage Compilation - Dec 2025",
+      "influencerName": "Gamer Pro",
+      "description": "Cari klip savage terkeren dari stream saya minggu ini. Harus ada watermark GamerPro!",
+      "thumbnail": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80&w=1000",
+      "allowedPlatforms": [
+        "tiktok",
+        "instagram",
+        "youtube"
+      ],
+      "ratePer1kViews": 12500,
+      "minEligibleViews": 1000,
+      "maxPayableViewsPerClip": 100000,
+      "totalBudget": 10000000,
+      "remainingBudget": 8500000,
+      "paidBudget": 1500000,
+      "reservedBudget": 0,
+      "startDate": "2025-12-08T17:03:31.419Z",
+      "endDate": "2026-01-07T17:03:31.419Z",
+      "status": "ACTIVE",
+      "isPublic": true,
+      "allowUnlimitedClippers": true,
+      "clippers": 45,
+      "submissions": 120,
+      "totalViews": 850000,
+      "createdBy": "inf_1",
+      "createdAt": "2025-12-07T17:03:31.419Z"
+    },
+    {
+      "id": "camp_2",
+      "title": "Skincare Routine Highlights",
+      "influencerName": "Beauty Grace",
+      "description": "Potong bagian terbaik dari video skincare routine saya jadi TikTok pendek.",
+      "thumbnail": "https://images.unsplash.com/photo-1596462502278-27bfdc4033c8?auto=format&fit=crop&q=80&w=1000",
+      "allowedPlatforms": [
+        "tiktok"
+      ],
+      "ratePer1kViews": 20000,
+      "minEligibleViews": 2000,
+      "totalBudget": 5000000,
+      "remainingBudget": 5000000,
+      "paidBudget": 0,
+      "reservedBudget": 0,
+      "startDate": "2025-12-23T17:03:31.419Z",
+      "endDate": "2026-01-22T17:03:31.419Z",
+      "status": "ACTIVE",
+      "isPublic": true,
+      "allowUnlimitedClippers": false,
+      "maxClippers": 10,
+      "clippers": 3,
+      "submissions": 5,
+      "totalViews": 12000,
+      "createdBy": "inf_2",
+      "createdAt": "2025-12-22T17:03:31.419Z"
+    },
+    {
+      "id": "camp_3",
+      "title": "Funny Fail Moments - Exclusive",
+      "influencerName": "Gamer Pro",
+      "description": "Private campaign for selected clippers. Don't share outside!",
+      "thumbnail": "https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&q=80&w=1000",
+      "allowedPlatforms": [
+        "tiktok",
+        "youtube"
+      ],
+      "ratePer1kViews": 15000,
+      "minEligibleViews": 500,
+      "totalBudget": 2000000,
+      "remainingBudget": 1500000,
+      "paidBudget": 500000,
+      "status": "ACTIVE",
+      "isPublic": false,
+      "participants": [
+        "clip_1",
+        "clip_2"
+      ],
+      "createdBy": "inf_1",
+      "createdAt": "2025-12-18T17:03:31.419Z"
+    }
+  ],
+  "submissions": [
+    {
+      "id": "sub_1",
+      "userId": "clip_1",
+      "campaignId": "camp_1",
+      "title": "Lancelot Fast Hand Skin Collector",
+      "platform": "TIKTOK",
+      "contentUrl": "https://tiktok.com/@elite_clippers/video/1",
+      "status": "approved",
+      "views": 75000,
+      "reward": 937500,
+      "submittedAt": "2025-12-13T17:03:31.419Z",
+      "reviewedAt": "2025-12-14T17:03:31.419Z",
+      "reviewedBy": "admin_1"
+    },
+    {
+      "id": "sub_2",
+      "userId": "clip_1",
+      "campaignId": "camp_1",
+      "title": "Fanny Rope 100% Precision",
+      "platform": "TIKTOK",
+      "contentUrl": "https://tiktok.com/@elite_clippers/video/2",
+      "status": "pending",
+      "views": 12000,
+      "submittedAt": "2025-12-27T17:03:31.419Z"
+    },
+    {
+      "id": "sub_3",
+      "userId": "clip_2",
+      "campaignId": "camp_1",
+      "title": "Funny Gusion Blink",
+      "platform": "INSTAGRAM",
+      "contentUrl": "https://instagram.com/reel/1",
+      "status": "rejected",
+      "rejectionReason": "Video aspect ratio must be 9:16",
+      "views": 500,
+      "submittedAt": "2025-12-24T17:03:31.419Z",
+      "reviewedAt": "2025-12-25T17:03:31.419Z",
+      "reviewedBy": "admin_1"
+    }
+  ],
+  "submissionProofs": [],
+  "transactions": [
+    {
+      "id": "tx_earning_1",
+      "userId": "clip_1",
+      "type": "SUBMISSION_REWARD_APPROVED",
+      "amount": 937500,
+      "description": "Reward for: Lancelot Fast Hand Skin Collector",
+      "status": "completed",
+      "date": "2025-12-14T17:03:31.419Z"
+    },
+    {
+      "id": "tx_withdraw_1",
+      "userId": "clip_1",
+      "type": "WITHDRAW_REQUEST",
+      "amount": -1000000,
+      "description": "Withdrawal request to Main Bank (BCA)",
+      "status": "PENDING",
+      "date": "2025-12-28T05:03:31.419Z"
+    },
+    {
+      "id": "tx_withdraw_2",
+      "userId": "clip_1",
+      "type": "WITHDRAW_APPROVED",
+      "amount": -500000,
+      "description": "Withdrawal approved",
+      "status": "completed",
+      "date": "2025-12-24T17:03:31.419Z"
+    }
+  ],
+  "withdrawRequests": [
+    {
+      "id": "withdraw_1",
+      "userId": "clip_1",
+      "amount": 1000000,
+      "paymentMethodId": "pm_1",
+      "paymentMethod": {
+        "id": "pm_1",
+        "userId": "clip_1",
+        "type": "BANK",
+        "label": "Main Bank (BCA)",
+        "bankName": "BCA",
+        "accountNumber": "8830112233",
+        "accountName": "Elite Clipper Store",
+        "isDefault": true,
+        "createdAt": "2025-11-18T17:03:31.419Z"
+      },
+      "status": "PENDING",
+      "createdAt": "2025-12-28T05:03:31.419Z"
+    },
+    {
+      "id": "withdraw_2",
+      "userId": "clip_1",
+      "amount": 500000,
+      "paymentMethodId": "pm_1",
+      "status": "APPROVED",
+      "createdAt": "2025-12-23T17:03:31.419Z",
+      "reviewedAt": "2025-12-24T17:03:31.419Z",
+      "reviewedBy": "admin_1"
+    },
+    {
+      "id": "withdraw_3",
+      "userId": "clip_3",
+      "amount": 250000,
+      "paymentMethodId": "pm_1",
+      "status": "REJECTED",
+      "rejectionReason": "Account suspended for policy violation",
+      "createdAt": "2025-12-18T17:03:31.419Z",
+      "reviewedAt": "2025-12-19T17:03:31.419Z",
+      "reviewedBy": "admin_1"
+    }
+  ],
+  "paymentMethods": [
+    {
+      "id": "pm_1",
+      "userId": "clip_1",
+      "type": "BANK",
+      "label": "Main Bank (BCA)",
+      "bankName": "BCA",
+      "accountNumber": "8830112233",
+      "accountName": "Elite Clipper Store",
+      "isDefault": true,
+      "createdAt": "2025-11-18T17:03:31.419Z"
+    },
+    {
+      "id": "pm_2",
+      "userId": "clip_1",
+      "type": "EWALLET",
+      "label": "GOPAY",
+      "ewalletType": "GOPAY",
+      "ewalletNumber": "08123456789",
+      "ewalletName": "Elite Clipper Store",
+      "isDefault": false,
+      "createdAt": "2025-11-28T17:03:31.419Z"
+    }
+  ],
+  "auditLogs": [],
+  "influencerProfiles": [
+    {
+      "id": "prof_new",
+      "userId": "inf_2",
+      "influencerName": "Beauty Grace",
+      "socialPlatform": "INSTAGRAM",
+      "socialHandle": "@beauty_grace",
+      "followers": 550000,
+      "niche": "Lifestyle & Beauty",
+      "status": "VERIFIED",
+      "submittedAt": "2025-12-12T17:03:31.419Z",
+      "reviewedAt": "2025-12-13T17:03:31.419Z"
+    }
+  ]
+}
