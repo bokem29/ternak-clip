@@ -58,8 +58,8 @@ const WithdrawalQueue = () => {
     const loadWithdrawals = async () => {
         try {
             setLoading(true);
-            const data = await api.get("/admin/withdraws");
-            setWithdrawals(data.withdrawRequests || []);
+            const data = await api.get("/admin/withdrawals");
+            setWithdrawals(data.withdrawals || []);
         } catch (error: any) {
             toast({
                 title: "Error",
