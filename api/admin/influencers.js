@@ -42,7 +42,7 @@ export default async function handler(req, res) {
                 });
             });
 
-            res.status(200).json({ applications });
+            res.status(200).json({ influencers: applications });
         } else {
             res.status(405).json({ error: 'Method not allowed' });
         }
