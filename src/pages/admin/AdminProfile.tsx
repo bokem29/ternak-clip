@@ -86,7 +86,7 @@ const AdminProfile = () => {
     const [sessions, setSessions] = useState<Session[]>([]);
     const [auditLogs, setAuditLogs] = useState<AuditLog[]>([]);
     const [metrics, setMetrics] = useState<AdminMetrics | null>(null);
-    
+
     // Security form state
     const [showCurrentPassword, setShowCurrentPassword] = useState(false);
     const [showNewPassword, setShowNewPassword] = useState(false);
@@ -115,7 +115,7 @@ const AdminProfile = () => {
     const loadProfile = async () => {
         try {
             setLoading(true);
-            const data = await api.get('/admin/profile');
+            const data = await api.get('/admin/data');
             setProfile(data);
         } catch (error: any) {
             toast({
@@ -130,7 +130,7 @@ const AdminProfile = () => {
 
     const loadSessions = async () => {
         try {
-            const data = await api.get('/admin/profile/sessions');
+            const data = await api.get('/admin/data?type=sessions');
             setSessions(data.sessions || []);
         } catch (error: any) {
             toast({
@@ -143,7 +143,7 @@ const AdminProfile = () => {
 
     const loadAuditLogs = async () => {
         try {
-            const data = await api.get('/admin/profile/audit-logs');
+            const data = await api.get('/admin/data?type=activity');
             setAuditLogs(data.logs || []);
         } catch (error: any) {
             toast({
@@ -156,7 +156,7 @@ const AdminProfile = () => {
 
     const loadMetrics = async () => {
         try {
-            const data = await api.get('/admin/profile/metrics');
+            const data = await api.get('/admin/data?type=metrics');
             setMetrics(data);
         } catch (error: any) {
             // Silently fail if metrics don't exist
@@ -165,7 +165,7 @@ const AdminProfile = () => {
 
     const handlePasswordUpdate = async (e: React.FormEvent) => {
         e.preventDefault();
-        
+
         if (passwordForm.new !== passwordForm.confirm) {
             toast({
                 title: 'Error',
@@ -190,12 +190,12 @@ const AdminProfile = () => {
                 current_password: passwordForm.current,
                 new_password: passwordForm.new,
             });
-            
+
             toast({
                 title: 'Success',
                 description: 'Password updated successfully',
             });
-            
+
             setPasswordForm({ current: '', new: '', confirm: '' });
         } catch (error: any) {
             toast({
@@ -293,7 +293,7 @@ const AdminProfile = () => {
     return (
         <AdminLayout>
             <AdminHeader title="Admin Profile" subtitle="Manage your account settings and security" />
-            
+
             <div className="flex-1 overflow-y-auto p-6 pb-20">
                 {/* Profile Header */}
                 <div className="glass-panel rounded-xl p-6 mb-6">
@@ -330,11 +330,10 @@ const AdminProfile = () => {
                                 <button
                                     key={tab.id}
                                     onClick={() => setActiveTab(tab.id)}
-                                    className={`flex items-center gap-2 px-6 py-4 text-sm font-medium transition-all border-b-2 ${
-                                        activeTab === tab.id
+                                    className={`flex items-center gap-2 px-6 py-4 text-sm font-medium transition-all border-b-2 ${activeTab === tab.id
                                             ? 'text-white border-blue-500 bg-white/5'
                                             : 'text-zinc-400 border-transparent hover:text-white hover:bg-white/5'
-                                    }`}
+                                        }`}
                                 >
                                     <Icon className="w-4 h-4" />
                                     {tab.label}

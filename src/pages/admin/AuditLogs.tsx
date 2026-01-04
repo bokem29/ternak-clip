@@ -47,7 +47,7 @@ const AuditLogs = () => {
   const loadLogs = async () => {
     try {
       setLoading(true);
-      const data = await api.get("/admin/audit-logs?limit=500");
+      const data = await api.get("/admin/data?type=logs&limit=500");
       setLogs(data.logs || []);
     } catch (error: any) {
       toast({
