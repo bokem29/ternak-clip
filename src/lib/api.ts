@@ -1,15 +1,11 @@
 // API configuration
-// In production (Firebase), API calls go to Firebase Functions
+// In production (Vercel), API calls go to /api (Vercel serverless functions)
 // In development, they proxy to localhost:3000 via vite.config.ts
 import { getAuthHeaders } from './firebaseAuth';
 
-// For Firebase deployment, use the Firebase Functions URL
+// For Vercel deployment, use /api (Vercel serverless functions)
 // For local development, use /api (proxied to localhost:3000)
-export const API_BASE_URL = import.meta.env.VITE_API_URL || 
-  (import.meta.env.PROD 
-    ? `https://${import.meta.env.VITE_FIREBASE_REGION || 'us-central1'}-${import.meta.env.VITE_FIREBASE_PROJECT_ID}.cloudfunctions.net/api`
-    : '/api'
-  );
+export const API_BASE_URL = import.meta.env.VITE_API_URL || '/api';
 
 export const api = {
   get: async (endpoint: string) => {
