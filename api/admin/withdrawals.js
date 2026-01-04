@@ -28,7 +28,6 @@ export default async function handler(req, res) {
             // Get withdrawal requests
             try {
                 const withdrawalsSnapshot = await db.collection('withdrawals')
-                    .orderBy('createdAt', 'desc')
                     .limit(100)
                     .get();
 
