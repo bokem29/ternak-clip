@@ -53,7 +53,7 @@ const TransactionList = () => {
     const loadTransactions = async () => {
         try {
             setLoading(true);
-            const data = await api.get("/transactions");
+            const data = await api.get("/wallet?all=true");
 
             // Enrich with user data
             const enriched = (data.transactions || []).map((tx: Transaction) => {

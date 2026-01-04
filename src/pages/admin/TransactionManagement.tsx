@@ -50,7 +50,7 @@ const TransactionManagement = () => {
     try {
       setLoading(true);
       const [transactionsData, statsData] = await Promise.all([
-        api.get('/transactions'),
+        api.get('/wallet?all=true'),
         api.get('/admin/stats')
       ]);
 
